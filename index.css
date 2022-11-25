@@ -1,6 +1,4 @@
 body {
-    padding: 0;
-    margin: 0;
     max-width: 100%;
     cursor: pointer;
 }
@@ -8,8 +6,7 @@ body {
     height: 708.667px;
     background-image: linear-gradient(0deg,rgba(0,0,0,.8) 0,transparent 60%,rgba(0,0,0,.8)), url("/images/Netflix\ background\ image.jpg");
     color: white;
-    border-bottom: 8px solid gray;
-    max-width: 100%;
+    border-bottom: 8px solid #222;
 }
 .signin-logo {
     height: 45px;
@@ -90,8 +87,7 @@ body {
     display: flex;
     color: white;
     background-color: black;
-    border-bottom: 8px solid gray;
-    /* max-width: 100%; */
+    border-bottom: 8px solid #222;
 }
 .tv {
     width: 100%;
@@ -103,17 +99,10 @@ body {
 }
 .tv .video {
     position: absolute;
-    width: 100%;
-    height: 100%;
     top: 21%;
     left: 13%;
     z-index: -1;  
 }
-.show-video {
-    width: 70%;
-    z-index: 1;
-}
-
 .container-3 {
     height: 415px;
     display: flex;
@@ -123,7 +112,7 @@ body {
     background-color: black;
     color: white;
     max-width: 100%;
-    border-bottom: 8px solid gray;
+    border-bottom: 8px solid #222;
     position: relative;
     gap: 100px;
 }
@@ -155,7 +144,6 @@ body {
     font-size: 19px;
     color: white;
     font-weight: 500;
-
 }
 .loading {
     color: #0071EB;
@@ -178,7 +166,7 @@ body {
     background-color: black;
     color: white;
     max-width: 100%;
-    border-bottom: 8px solid gray;
+    border-bottom: 8px solid #222;
 }
 .Anywhere {
     height: 114.67px;
@@ -204,50 +192,66 @@ body {
     justify-items: center;
     align-items: center;
     max-width: 100%;
-    border-bottom: 8px solid gray;
+    border-bottom: 8px solid #222;
 }
 .create h1 {
     font-size: 45px;
 }
 .container-6 {
-    height: 700px;
+    height: 800px;
     background-color: black;
     color: white;
     display: flex;
     justify-content: center;
     align-items: center;
-    border-bottom: 8px solid gray;
+    border-bottom: 8px solid #222;
     max-width: 100%;
 }
 .sub-6 {
-    width: 800px;
-    margin: 0 auto;
-    align-items: center;
+    width: 700px;
 }
 .sub-6 h1 {
-    align-items: center;
-    width: 650px;
     font-size: 50px;
-    margin-left: 60px;
     font-weight: 800;
+    margin-left: 50px;
 }
-.list ul{
-    list-style-type: none;
+.sub-6 p{
+    background-color: #303030;
+    padding: 15px;
+    font-size: 20px;
+    font-weight: 900;
 }
-.sub-6 ul button{
-    width: 650px;
-    height:57.33px;
-    background-color: gray;
-    padding-left: 0px;
+.one {
+    display: flex;
+    gap: 500px;
+}
+.two {
+    display: flex;
+    gap: 395px;
+}
+.three {
+    display: flex;
+    gap: 475px;
+}
+.four {
+    display: flex;
+    gap: 490px;
+}
+.five {
+    display: flex;
+    gap: 390px;
+}
+.six {
+    display: flex;
+    gap: 430px;
 }
 #paded {
-    margin-left: 60px;
+    margin-left: 40px;
 }
 .container-7 {
     height: 160px;
     padding: 70px 100px;
     background-color: black;
-    
 }
 .container-7 button{
     display: block;
